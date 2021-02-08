@@ -1,0 +1,36 @@
+{
+  "PON.samples" : [
+  ],
+  "PON.bwaIndex": {
+    "fastaFile": "/export/home/bwiley4/data/project/hg38.fa",
+    "indexFiles": [
+			"/export/home/bwiley4/data/project/hg38.fa.sa",
+			"/export/home/bwiley4/data/project/hg38.fa.amb",
+			"/export/home/bwiley4/data/project/hg38.fa.ann",
+			"/export/home/bwiley4/data/project/hg38.fa.bwt",
+			"/export/home/bwiley4/data/project/hg38.fa.pac"
+    ]
+  },
+  "PON.reference" : {
+		"ref_fasta": "/export/home/bwiley4/data/project/hg38.fa",
+		"ref_fai" : "/export/home/bwiley4/data/project/hg38.fa.fai",
+		"ref_dict" : "/export/home/bwiley4/data/project/hg38.dict"
+	},
+  "PON.maxRetries": 0,
+  "PON.threads": 16,
+	"PON.bwa_path": "/opt/bwa-0.7.17/bwa",
+	"PON.trimmomatic_path": "/export/home/bwiley4/tools/trimmomatic-0.39.jar",
+  "PON.samtools_path": "/usr/local/bin/samtools",
+  "PON.gatk_path": "/export/home/bwiley4/tools/gatk-4.1.9.0/gatk-package-4.1.9.0-local.jar",
+  "PON.trim": "true",
+  "PON.contamination": "false",
+  "PON.variants_for_contamination": "/export/home/bwiley4/data/project/rest/af-only-gnomad.hg38.vcf.gz",
+  "PON.variants_for_contamination_idx": "/export/home/bwiley4/data/project/rest/af-only-gnomad.hg38.vcf.gz.tbi",
+	"PON.gnomad": "/export/home/bwiley4/data/project/rest/af-only-gnomad.hg38.vcf.gz",
+  "PON.gnomad_idx": "/export/home/bwiley4/data/project/rest/af-only-gnomad.hg38.vcf.gz.tbi",
+  "PON.mills": "/export/home/bwiley4/data/project/rest/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz",
+  "PON.mills_idx": "/export/home/bwiley4/data/project/rest/Mills_and_1000G_gold_standard.indels.hg38.vcf.gz.tbi",
+  "PON.known_indels": "/export/home/bwiley4/data/project/rest/Homo_sapiens_assembly38.known_indels.vcf.gz",
+  "PON.known_indels_idx": "/export/home/bwiley4/data/project/rest/Homo_sapiens_assembly38.known_indels.vcf.gz",
+  "PON.panelName": "breastSEIonTorrent"
+}
